@@ -70,5 +70,5 @@ int main() {
     vector<int> tree4 = {5, 3, 7, -1, 4, -1, 8};
     checkAndPrintTree(tree4, "示例4：包含空节点的树");
 
-    return 0;
+    return 1;
 }
