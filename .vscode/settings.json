@@ -1,4 +1,12 @@
 {
+
+
+    "code-runner.executorMap":{
+        "c" :"cd $dir && gcc $fileName -o C:\\Users\\86151\\OneDrive\\Code\\Allexe\\$fileNameWithoutExt && C:\\Users\\86151\\OneDrive\\Code\\allexe\\$fileNameWithoutExt",
+        "cpp" :"cd $dir && gcc $fileName -o C:\\Users\\86151\\OneDrive\\Code\\Allexe\\$fileNameWithoutExt && C:\\Users\\86151\\OneDrive\\Code\\allexe\\$fileNameWithoutExt",
+        "python" :"cd $dir && gcc $fileName -o C:\\Users\\86151\\OneDrive\\Code\\Allexe\\$fileNameWithoutExt && C:\\Users\\86151\\OneDrive\\Code\\allexe\\$fileNameWithoutExt"
+    },
+//C:\Users\86151\OneDrive\Code
     "files.associations": {
         "iostream": "cpp",
         "array": "cpp",
@@ -6,4 +14,6 @@
         "string_view": "cpp",
         "new": "cpp"
     }
+    
+
 }

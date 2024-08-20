@@ -29,7 +29,7 @@ void insert(LinkList &L, int e){
 }
 
 int out(LinkList &L){
-    if(fullorempty(L)==2) return;
+    if(fullorempty(L)==2) return NULL;
     int e = front->data;
     front = front->next;
     return e;
